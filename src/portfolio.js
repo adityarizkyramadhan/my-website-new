@@ -26,7 +26,7 @@ const greeting = {
     "Building robust backends and seamless infrastructure 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/drive/folders/1zg-AHJKG82ifOfyXgeRaDi8nWy8xO6Ja?usp=drive_link", // Set to empty to hide the button
+    "https://clips.id/drive-resume-adit", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

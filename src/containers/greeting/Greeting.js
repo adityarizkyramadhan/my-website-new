@@ -42,8 +42,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href="https://clips.id/drive-resume-adit"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
