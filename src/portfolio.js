@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Aditya Rizky Ramadhan",
+  username: "Aditya R.",
   title: "Hi all, I'm Aditya",
   subTitle: emoji(
     "Building robust backends and seamless infrastructure 🚀"
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/adityaariizkyy/",
   gmail: "adityarizky1020@gmail.com",
   gitlab: "https://gitlab.com/adityarizkyramadhan",
-  facebook: "https://www.facebook.com/adityarizkyramadhan",
+  facebook: "",
   medium: "https://medium.com/@adityarizky1020",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -49,15 +49,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY BACK END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive backend for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop RESTful APIs, GraphQL APIs, Websockets, PubSub, and GRPC"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
+    emoji("⚡ Building scalable microservices"),
+    emoji("⚡ Implementing best security practices to protect data and prevent security threats"),
+    emoji("⚡ Writing and maintaining clear technical documentation for developed code and systems"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,61 +68,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Golang",
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "RabbitMQ",
+      fontAwesomeClassname: "fas fa-stream"
     },
     {
-      skillName: "firebase",
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 // Education Section
 
 const educationInfo = {
@@ -127,7 +109,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Universitas Brawijaya",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/ub.png"),
       // Teknik Informatika
       subHeader: "Informatics Engineering",
       duration: "September 2021 - Desember 2024",
@@ -169,35 +151,55 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Backend Engineer",
+      company: "Synapsis.ID",
+      companylogo: require("./assets/images/synapsis_id_logo.jpeg"),
+      date: "December 2024 – Present",
+      desc: "Building and maintaining the backend of the Synapsis.ID platform, which provides various services tailored to client needs.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developing and executing unit tests, as well as debugging to ensure system performance and reliability.",
+        "Implementing best security practices to protect data and prevent security threats.",
+        "Writing and maintaining clear technical documentation for developed code and systems.",
+        "Collaborating with cross-disciplinary team members to design and implement technical solutions that meet business needs.",
+        "Languages used: Go"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intermediate Backend Developer",
+      company: "Vobis",
+      companylogo: require("./assets/images/vobisio_logo.jpeg"),
+      date: "August 2024 – Present",
+      desc: "Designing and developing scalable and high-performance RESTful APIs and backend services.",
+      descBullets: [
+        "Developing and executing unit tests, as well as debugging to ensure system performance and reliability.",
+        "Implementing best security practices to protect data and prevent security threats.",
+        "Writing and maintaining clear technical documentation for developed code and systems.",
+        "Collaborating with cross-disciplinary team members to design and implement technical solutions that meet business needs.",
+        "Developed features such as a data uploader and personalized WhatsApp bot integrated with a database.",
+        "Languages used: Go, JavaScript, and TypeScript."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Backend Junior Programmer",
+      company: "Vobis",
+      companylogo: require("./assets/images/vobisio_logo.jpeg"),
+      date: "October 2023 – August 2024",
+      desc: "Supporting backend development for various projects, following workflow and requirements set by the Project Manager (PM).",
+      descBullets: [
+        "Reviewing and adhering to workflows based on provided flowcharts.",
+        "Developing features according to team specifications and requirements.",
+        "Collaborating with team members to ensure features function properly and meet user needs.",
+        "Testing developed features to ensure they meet requirements.",
+        "Documenting workflows and features using Postman.",
+        "Enhancing microservices architecture by transitioning to PubSub using RabbitMQ."
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -237,7 +239,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -306,7 +308,10 @@ const achievementSection = {
       image: require("./assets/images/vhack.png"),
       imageAlt: "VHacks University Sains Malaysia",
       footerLink: [
-        { name: "Certification", url: "https://jgjyjvyldoamqndazixl.supabase.co/storage/v1/object/public/sertif/ADITYA%20RIZKY%20RAMADHAN%20-%20V%20Hack%20Top%2020%20Finalist%20Certificate.pdf" },
+        {
+          name: "Certification",
+          url: "https://jgjyjvyldoamqndazixl.supabase.co/storage/v1/object/public/sertif/ADITYA%20RIZKY%20RAMADHAN%20-%20V%20Hack%20Top%2020%20Finalist%20Certificate.pdf"
+        },
       ]
     }
   ],
