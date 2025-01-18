@@ -13,7 +13,7 @@ export default function Footer() {
           {emoji("Made with ❤️ by DeveloperFolio Team")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Edited with 🫀 by Aditya Ramadhan")}
+          {emoji("Edited with 🫀 by Aditya Rizky Ramadhan")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
