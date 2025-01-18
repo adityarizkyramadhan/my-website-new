@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Aditya Rizky Ramadhan",
+  title: "Hi all, I'm Aditya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Building robust backends and seamless infrastructure 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/drive/folders/1zg-AHJKG82ifOfyXgeRaDi8nWy8xO6Ja?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/adityarizkyramadhan",
+  linkedin: "https://www.linkedin.com/in/adityaariizkyy/",
+  gmail: "adityarizky1020@gmail.com",
+  gitlab: "https://gitlab.com/adityarizkyramadhan",
+  facebook: "https://www.facebook.com/adityarizkyramadhan",
+  medium: "https://medium.com/@adityarizky1020",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,23 +126,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
+      schoolName: "Universitas Brawijaya",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // Teknik Informatika
+      subHeader: "Informatics Engineering",
+      duration: "September 2021 - Desember 2024",
+      desc: "I am a graduate of the Faculty of Computer Science at Brawijaya University with a strong interest in backend development.",
+      descBullets: [
+        "Software Engineering",
+        "Data Structure and Algorithm",
+        "Web Programming",
+      ]
     }
   ]
 };
@@ -153,15 +147,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "JavaScript", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Golang",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Java",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Python",
       progressPercentage: "60%"
     }
   ],
@@ -252,51 +250,63 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "PLAYBOX Season 3",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Third Winner - 2022",
+      image: require("./assets/images/playbox.png"),
+      imageAlt: "PLAYBOX Season 3",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Appreciation Post",
+          url: "https://www.instagram.com/p/CiMPzM5rLaF"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certificate",
+          url: "https://jgjyjvyldoamqndazixl.supabase.co/storage/v1/object/public/sertif/Sertifikat%20juara%203%20mhs%20Aditya%20Rizky%20Ramadhan%20(1).pdf"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "8th Closer 2022",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Third Winner - 2022",
+      image: require("./assets/images/closer.png"),
+      imageAlt: "Closer",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Appreciation Post",
+          url: "https://www.instagram.com/p/Cmvx_2KLgBk"
+        },
+        {
+          name: "Certificate",
+          url: "https://jgjyjvyldoamqndazixl.supabase.co/storage/v1/object/public/sertif/BCCxRaion_Sertif.pdf"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Ciputra Hackfest",
+      subtitle:
+        "First Winner - 2023",
+      image: require("./assets/images/ciputra.png"),
+      imageAlt: "Ciputra Hackfest",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Appreciation Post",
+          url: "https://www.instagram.com/p/CsfBHE5yNTM"
+        },
+        {
+          name: "Certificate",
+          url: "https://jgjyjvyldoamqndazixl.supabase.co/storage/v1/object/public/sertif/adit.png"
         }
+      ]
+    },
+    {
+      title: "V-Hacks University Sains Malaysia",
+      subtitle: "Finalist - 2023",
+      image: require("./assets/images/vhack.png"),
+      imageAlt: "VHacks University Sains Malaysia",
+      footerLink: [
+        { name: "Certification", url: "https://jgjyjvyldoamqndazixl.supabase.co/storage/v1/object/public/sertif/ADITYA%20RIZKY%20RAMADHAN%20-%20V%20Hack%20Top%2020%20Finalist%20Certificate.pdf" },
       ]
     }
   ],
@@ -343,10 +353,10 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
+// // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
@@ -356,7 +366,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +382,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+62 857 0438 4348",
+  email_address: "adityarizky1020@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
